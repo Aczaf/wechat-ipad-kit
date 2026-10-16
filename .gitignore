@@ -1,0 +1,23 @@
+# 运行时状态与产物
+.state/
+wechat860-src/
+*.log
+*.zip
+*.tar.xz
+
+# 敏感信息（绝不提交）
+.env
+*.env
+credentials*
+*identity*.json
+*secret*
+*token*
+qr*.png
+*.pem
+*.key
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
